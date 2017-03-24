@@ -11,7 +11,7 @@ import AlbumList from './src/components/AlbumList';
 // native compoents like Text are provided by ReactNative
 // Header nesting
 const App = () => (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header text={'Albums'} />
       <AlbumList />
     </View>
